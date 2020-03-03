@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  align-items: center;
+  background-color: #267a61;
+  clear: both;
+  display: flex;
+  height: 80px;
+  padding: 0 80px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  color: #f3f3f3;
+  font-size: 3.6rem;
+  width: 50%;
+}
+
+nav {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-around;
+  width: 40%;
+}
+
+nav a {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #cecece;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 40px 80px;
+  width: 70%;
+}
+
+section img {
+  align-self: center;
+  height: 375px;
+  padding-bottom: 40px;
+  width: 80%;
+}
+
+.about-info {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.about-info h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.about-info p {
+  font-size: 1.8rem;
+  padding-bottom: 15px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+aside h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+aside a {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+footer {
+  background-color: #2f9979;
+  display: flex;
+  color: #f3f3f3;
+  font-size: 1.4rem;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
